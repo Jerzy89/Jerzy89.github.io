@@ -1,0 +1,130 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .person_info {
+        margin-top: 50px;
+    }
+
+    .person_info h3,
+    .person_info p {
+        text-align: center;
+    }
+
+    .about_myself h3,
+    .about_myself p {
+        text-align: center;
+    }
+
+    .portfolio_item_cont h3,
+    .portfolio_item_cont p,
+    .portfolio_item_cont a {
+        margin-top: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_content h1 {
+        padding: 10px
+    }
+    .col-study {
+        padding: 30px;
+    }
+
+    .about_myself h3,
+    .about_myself p {
+        text-align: center;
+    }
+
+    .study,
+    .study h3 {
+        padding-right: 0;
+        text-align: left;
+        border-right: none;
+    }
+    .study_item p {
+        text-align: left;
+    }
+
+    .study h3, .study_icon,
+    .job h3, .job_icon {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .portfolio_item_cont h3,
+    .portfolio_item_cont p,
+    .portfolio_item_cont a {
+        font-size: 24px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .logo{
+        left: 0;
+        margin-left: -25px;
+    }
+
+    .top_content h1 {
+        font-size: 32px;
+        padding: 5px;
+    }
+    .top_content p {
+        font-size: 20px;
+    }
+    section p {
+        text-align: center;
+    }
+
+    .person_info li span {
+        display: block;
+        width: 100%;
+    }
+    .portfolio_item_cont h3, p, a {
+        font-size: 18px;
+    }
+
+    .contact_box span {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
